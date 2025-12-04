@@ -39,18 +39,6 @@ const LowerNav = () => {
     "Maternity Wear"
   ];
 
-  const clothingBrands = [
-    "Nike",
-    "Adidas",
-    "Zara",
-    "H&M",
-    "Levi's",
-    "Gucci",
-    "Prada",
-    "Uniqlo",
-    "Forever 21",
-    "Under Armour"
-  ];
 
   const toggleMobileDropdown = (dropdown: string) => {
     setMobileDropdown(mobileDropdown === dropdown ? null : dropdown);
@@ -92,22 +80,6 @@ Voen
                           className="block w-full"
                         >
                           {category}
-                        </Link>
-                      </div>
-                    ))}
-                    <div className="px-4 py-2 text-xs font-semibold text-gray-500 border-b border-gray-100 mt-2">
-                      POPULAR BRANDS
-                    </div>
-                    {clothingBrands.map((brand, index) => (
-                      <div
-                        key={index}
-                        className="px-4 py-2 hover:bg-gray-100 transition-colors cursor-pointer text-sm"
-                      >
-                        <Link
-                          href={`/brand/${brand.toLowerCase()}`}
-                          className="block w-full"
-                        >
-                          {brand}
                         </Link>
                       </div>
                     ))}
@@ -182,19 +154,6 @@ Voen
                           onClick={() => setMobileMenuOpen(false)}
                         >
                           {category}
-                        </Link>
-                      ))}
-                      <div className="text-xs font-semibold text-gray-500 px-2 py-1 mt-2">
-                        POPULAR BRANDS
-                      </div>
-                      {clothingBrands.map((brand, index) => (
-                        <Link
-                          key={index}
-                          href={`/brand/${brand.toLowerCase()}`}
-                          className="block py-2 px-3 text-sm hover:text-black hover:bg-white/70 transition-colors rounded-md"
-                          onClick={() => setMobileMenuOpen(false)}
-                        >
-                          {brand}
                         </Link>
                       ))}
                     </div>
