@@ -37,7 +37,7 @@ export default function PaymentPage() {
       saveOrder(order);
       clearCart();
 
-      router.push("/checkout/success");
+      router.push("/invoice");
       setLoading(false);
     }, 1500);
   };

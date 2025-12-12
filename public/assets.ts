@@ -14,7 +14,7 @@ export const data = {
 
 export const dataApi = [
   {
-    _id: "ueu7djjd",
+    id: "ueu7djjd",
     imag1: [product1, product1_back],
     heading: "Véon Essential T-Shirt",
     price: "$60.00 USD",
@@ -248,7 +248,7 @@ Iron on low heat if needed, avoiding printed areas.`,
 
 export const blogData = [
   {
-    _id:"jjfffifife8e",
+    id:"jjfffifife8e",
   title: "How to Master the Art of Multi-Seasonal Dressing",
   category: "Style Guide",
   date: "2025-03-28",
@@ -289,7 +289,7 @@ export const blogData = [
   image: Blog2,
 },
 {
-    _id:"jjfffifie",
+    id:"jjfffifie",
   title: "How to Master the Art of Multi-Seasonal Dressing",
   category: "Style Guide",
   date: "2025-03-28",
@@ -330,7 +330,7 @@ export const blogData = [
   image: Blog3
 },
 {
-    _id:"jjfffififeiig",
+    id:"jjfffififeiig",
   title: "How to Master the Art of Multi-Seasonal Dressing",
   category: "Style Guide",
   date: "2025-03-28",

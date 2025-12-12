@@ -22,7 +22,7 @@
       "@/*": ["./src/*"]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "src/app/dashboard/user/page.tsx", "src/app/lib/db.connect.ts", "src/app/[shop]/[id]/page.jsx"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "src/app/dashboard/user/page.tsx", "src/app/lib/db.connect.ts", "src/app/[shop]/[id]/page.jsx", "src/app/Blogs/[id]/page.jsx"],
   "exclude": ["node_modules"]
 }
 
