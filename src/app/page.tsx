@@ -180,7 +180,7 @@ const showSearch = useSelector((state: RootState) => state.variable.showSearchBa
         <DiscoverCollection />
         <RefineCasual />
         <Services />
-        <Blogs />
+        {/* <Blogs /> */}
         <TrendingProductsCarousel />
         <TrustedByMarquee/>
         <Testimonilas />
